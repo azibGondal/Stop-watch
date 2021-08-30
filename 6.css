@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+
+
+}
+body{
+    background-color: gray;
+}
+.hours{
+    font-size: 10rem;
+    color: white;
+}
+.mino{
+    font-size: 3rem;
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    margin-top: 200px;
+}
+#btn{
+    position: absolute;
+    bottom: 37%;
+}
+.button{
+    padding: 3px 17px;
+    margin: 7px;
+}
+#btn1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.708);
+    transition: all  0.5s ease-in-out;
+}
+#btn2{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.482);
+    transition: all 0.5s ease-in-out;
+}
+#btn3{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.482);
+    transition: all 0.5s ease-in-out;
+}
+
+
+#btn1:hover{
+    color: white;
+    background-color: rgba(6, 31, 255, 0.708);
+}
+#btn2:hover{
+    color: white;
+    background-color: rgba(0, 128, 0, 0.482);
+}
+#btn3:hover{
+    color: white;
+    background-color: rgba(128, 0, 11, 0.482);
+}
